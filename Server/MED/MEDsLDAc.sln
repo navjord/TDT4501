@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MEDsLDAc_multiclass", "MEDsLDAc\MEDsLDAc.vcproj", "{5DBA044D-5A53-4AA1-A618-500F4A7845ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1EACC756-1D35-4740-8EA9-A75A88A4AF19} = {1EACC756-1D35-4740-8EA9-A75A88A4AF19}
+		{0994DFE5-09A9-47D6-8D6B-97EE1D4BA3BB} = {0994DFE5-09A9-47D6-8D6B-97EE1D4BA3BB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SVM_Multiclass", "SVM_Multiclass\SVM_Multiclass.vcproj", "{1EACC756-1D35-4740-8EA9-A75A88A4AF19}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0994DFE5-09A9-47D6-8D6B-97EE1D4BA3BB} = {0994DFE5-09A9-47D6-8D6B-97EE1D4BA3BB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SVMLight", "SVMLight\SVMLight_CPlus.vcproj", "{0994DFE5-09A9-47D6-8D6B-97EE1D4BA3BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DBA044D-5A53-4AA1-A618-500F4A7845ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5DBA044D-5A53-4AA1-A618-500F4A7845ED}.Debug|Win32.Build.0 = Debug|Win32
+		{5DBA044D-5A53-4AA1-A618-500F4A7845ED}.Release|Win32.ActiveCfg = Release|Win32
+		{5DBA044D-5A53-4AA1-A618-500F4A7845ED}.Release|Win32.Build.0 = Release|Win32
+		{1EACC756-1D35-4740-8EA9-A75A88A4AF19}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1EACC756-1D35-4740-8EA9-A75A88A4AF19}.Debug|Win32.Build.0 = Debug|Win32
+		{1EACC756-1D35-4740-8EA9-A75A88A4AF19}.Release|Win32.ActiveCfg = Release|Win32
+		{1EACC756-1D35-4740-8EA9-A75A88A4AF19}.Release|Win32.Build.0 = Release|Win32
+		{0994DFE5-09A9-47D6-8D6B-97EE1D4BA3BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0994DFE5-09A9-47D6-8D6B-97EE1D4BA3BB}.Debug|Win32.Build.0 = Debug|Win32
+		{0994DFE5-09A9-47D6-8D6B-97EE1D4BA3BB}.Release|Win32.ActiveCfg = Release|Win32
+		{0994DFE5-09A9-47D6-8D6B-97EE1D4BA3BB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

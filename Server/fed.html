@@ -1,0 +1,52 @@
+<head>
+  <title>Financial Event Detection</title>
+</head>
+
+<body>
+<div id="leftPanel" width="15%">
+	<h3>Financial Event Detection</h3>
+	Articles
+
+</div>
+<div>
+	<div id="topPanel">
+	
+	</div>
+	<div id="mainPanel">
+		{{> articleList}}
+	</div>
+</div>
+  
+</body>
+
+<template name="hello">
+  <h1>Hello World!</h1>
+  {{greeting}}
+  <input type="button" value="Click" />
+  
+</template>
+
+<template name="articleList">
+	<table>
+	<tr>
+		<td>Source</td><td>Title</td><td>Time</td>
+	</tr>
+	{{> tests}}
+	</table>
+</template>
+
+<template name="articles">
+	{{#each articles}}
+	<tr>
+		<td> test </td> <td><a href="javascript:void(0)" class="articleTitle">{{title}}</a></td><td>{{date}}</td>
+	</tr>
+	{{/each}}
+</template>
+
+<template name="tests">
+	{{#each tests}}
+	<tr>
+		<td> test </td> <td><a href="javascript:void(0)" class="articleTitle">{{title}}</a></td><td>{{date}}</td>
+	</tr>
+	{{/each}}
+</template>
